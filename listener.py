@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-import argparse, sys, socket, io, time
+import argparse
+import sys
+import socket
+import io
+import time
 from ipaddress import ip_address
 
 def listen(args):
